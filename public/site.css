@@ -36,6 +36,34 @@ li {
 	text-indent: -5000px;
 }
 
+#cookie-notice-wrapper {
+	display: flex;
+	position: fixed;
+	bottom: 0;
+	padding: 10px 0 15px 0;
+	width: 100%;
+	justify-content: center;
+	background-color: #fff;
+}
+
+#cookie-notice {
+	background-color: #07923B;
+	color: #fff;
+	padding: 6px 15px 6px 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 20px;
+	font-size: 80%;
+	box-shadow: 0 3px 3px rgba(0,0,0, .2);
+}
+
+#cookie-notice > * {
+	margin: 0 15px 0 5px;
+}
+
 .section {
 	padding: 5vh 8vw;
 }
@@ -68,6 +96,14 @@ a.button {
 	padding: 15px 18px;
 	border-radius: 10px;
 	text-decoration: none;
+}
+
+a.action {
+	color: white;
+}
+
+a.action.primary {
+	font-weight: 700;
 }
 
 .row {
